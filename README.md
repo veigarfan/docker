@@ -16,8 +16,8 @@ will NOT work on centOS platforms:
 arm (32-bit)
 s390x
 
-## Prerequisites
-# OS requirements
+# Prerequisites
+## OS requirements
 to install D.E, you need a maintained version of one of the following CentOS versions:
 *CentOS 9 (stream)*
 the ``` centos-extras ``` repository must be enabled. this repository is enabled by default. if you have disabled it, you need to re-enable it...........duh!!!!!!!!!
