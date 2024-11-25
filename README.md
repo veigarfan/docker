@@ -39,3 +39,13 @@ sudo dnf remove docker \
 ```dnf``` might report that you have none of these packages installed.
 
 images, containers, volumes, and networks stored in ```/var/lib/docker/``` aren't automatically removed when you uninstall Docker.
+## Installation methods
+you can install D.E in different ways, depending on your needs:
+
+> you can set up Docker's repositories and install from them, for ease of installation and upgrade tasks
+
+> you can download the RPM package, install it manually, and manage upgrades completely manually. (this is useful in situations such as installing Docker on air-gapped systems with no access to the internet)
+
+> in testing and development environments, you can use automated convenience scripts to install Docker (hahahaha)
+
+
