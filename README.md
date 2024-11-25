@@ -15,3 +15,27 @@ ppc64le
 will NOT work on centOS platforms: 
 arm (32-bit)
 s390x
+
+## Prerequisites
+# OS requirements
+to install D.E, you need a maintained version of one of the following CentOS versions:
+*CentOS 9 (stream)*
+the ``` centos-extras ``` repository must be enabled. this repository is enabled by default. if you have disabled it, you need to re-enable it...........duh!!!!!!!!!
+
+## Uninstall old versions
+before you can install D.E, you need to uninstall any conflicting packages.
+
+ur Linux distribution may provide unofficial Docker packages, which may conflict with the official packages provided by Docker. you must uninstall these packages before you install D.E.
+```
+sudo dnf remove docker \
+                  docker-client \
+                  docker-client-latest \
+                  docker-common \
+                  docker-latest \
+                  docker-latest-logrotate \
+                  docker-logrotate \
+                  docker-engine
+```
+```dnf``` might report that you have none of these packages installed.
+
+images, containers, volumes, and networks stored in ```/var/lib/docker/``` aren't automatically removed when you uninstall Docker.
