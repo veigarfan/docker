@@ -8,12 +8,12 @@ the CLI uses Docker APIs to control or interact with the Docker daemon through s
 
 
 will work on centOS platforms:
-**x86_64 / amd64** 
-**arm64 / aarch64**
+**x86_64 / amd64**,
+**arm64 / aarch64**,
 **ppc64le**
 
 will NOT work on centOS platforms: 
-**arm (32-bit)**
+**arm (32-bit)**,
 **s390x**
 
 # Prerequisites
